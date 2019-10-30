@@ -1,5 +1,3 @@
-USE jfc7xbeltcv5wz1h;
-
 INSERT INTO burgers (burger_name, devoured) VALUES ('Good Burger', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Better Burger', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Best Burger', false);

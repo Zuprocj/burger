@@ -1,5 +1,5 @@
-CREATE DATABASE jfc7xbeltcv5wz1h;
-USE jfc7xbeltcv5wz1h;
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
 CREATE TABLE burgers
 (
