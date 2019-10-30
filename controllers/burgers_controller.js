@@ -30,4 +30,16 @@ router.put('/burgers/:id', function(req, res) {
   });
 });
 
+// delete function not working properly
+// router.delete('/burgers/:id', function (req, res) {
+//   var condition = 'id = ' + req.params.id;
+//   burger.deleteOne(condition, function(result) {
+//     if (result.affectedRows == 0) {
+//       return res.status(404).end();
+//     } else {
+//       res.status(200).end();
+//     }
+//   });
+// });
+
 module.exports = router;

@@ -56,7 +56,22 @@ var orm = {
 			}
 			cb(result);
 		});
-	}
+	},
 };
+
+	// trying to add a delete function, not working properly
+
+	// deleteOne: function(table, condition, cb) {
+	// 	var queryString = "DELETE FROM " + table;
+	// 	queryString += " WHERE ";
+	// 	queryString += condition;
+	// 	connection.query(queryString, function(err, result) {
+	// 	  if (err) {
+	// 		throw err;
+	// 	  }
+	// 	  cb(result);
+	// 	});
+	//   }
+	// };
 
 module.exports = orm;
