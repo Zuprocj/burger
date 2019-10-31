@@ -59,6 +59,7 @@ var orm = {
 	},
 };
 
+
 	// trying to add a delete function, not working properly
 
 	// deleteOne: function(table, condition, cb) {
